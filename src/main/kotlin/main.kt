@@ -18,8 +18,7 @@ fun main() {
                 val id = readln()
                 println("Enter mark:")
                 val mark = readln().toInt()
-                val s = Student(id, name, course)
-                s.mark = mark
+                val s = Student(id, name, course, mark)
                 university.addStudent(s)
             }
             "2" -> {
